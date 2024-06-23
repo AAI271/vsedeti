@@ -41,14 +41,13 @@
                 <div>
                     <h1 class="main__title">Игровой комплект</h1>
                     <p class="main__description">
-                        для самостоятельного использования от 5 до 100 человек
+                        для самостоятельного использования<br/>
+                         от 5 до 100 человек
                     </p>
                     <div class="main__info-list flex">
                         <span>
                             <img src="assets/trueIcon.svg" alt="checked icon">
-                            
                                 неограниченное использование
-                            
                         </span>
                         <span>
                             <img src="assets/trueIcon.svg" alt="checked icon">
@@ -72,7 +71,10 @@
                 
             </div>
             <div class="main__words-button flex">
-                <button id="openModalBtn" class="button">Получите расчет стоимости игрового комплекта в 2-X вариантах</button>
+                <div class="main__button-container">
+                    <button id="openModalBtn" class="button">Получите расчет стоимости игрового комплекта в 2-X вариантах</button>
+                    <div class="main__btn-gift"> +подарок</div>
+                </div>
                 <div class="main__words">
                     <div class="parallelepiped">
                         <span>ТРЦ</span>
@@ -106,14 +108,12 @@
                     </span>
                 </span><br/>
                  - это уникальное предложение, не имеющее аналогов
-                Игровой комплект
-                ВСЕ ДЕТИ НА СВЕТЕ
             </h2>
             <p class="age__description">
                 Контент создан с учетом разносторонних интересов современных детей
             </p>
             <div class="age__pencil">
-                <img src="assets/karandash.png" alt="">
+                <img class="karandash-img" src="assets/karandash.png" alt="">
                 <div class="age__five">
                     <div class="age__card parallelepiped">
                         <div class="age__card-title">
@@ -127,7 +127,7 @@
                         </p>
                     </div>
                     <div class="age__interval-text">
-                        <img src="" alt="">
+                        <img src="assets/pencilsvg.svg" alt="">
                         <div class="age__interval-about">
                             <h3>Текст</h3>
                             <span>
@@ -154,7 +154,7 @@
                         </p>
                     </div>
                     <div class="age__interval-text">
-                        <img src="" alt="">
+                        <img src="assets/pencilsvg.svg" alt="">
                         <div class="age__interval-about">
                             <h3>Текст</h3>
                             <span>
@@ -180,7 +180,7 @@
                         </p>
                     </div>
                     <div class="age__interval-text">
-                        <img src="" alt="">
+                        <img src="assets/pencilsvg.svg" alt="">
                         <div class="age__interval-about">
                             <h3>Текст</h3>
                             <span>
@@ -196,7 +196,7 @@
     </section>
     <section class="best">
         <div class="container">
-            <h3>Наши топовые игровые пакеты</h3>
+            <h3 class="best__title">Наши топовые игровые пакеты</h3>
             <div class="best__packages">
                 <div class="best__card">
                     <img src="assets/best1.png" alt="">
@@ -321,7 +321,7 @@
                 </div>
 
             </div>
-            <div class="flex">
+            <div class="calculate__test-container">
                 <div class="calculate__test">
                     <span class="calculate__question-left">осталось 5 вопросов из 5</span>
                     <h3 class="calculate__test-title">Сколько пакетов хотите заказать?</h3>
@@ -368,12 +368,15 @@
                     <p class="calculate__name">
                         Елена
                     </p>
-                    <div>
+                    <p class="calculate__name-description">
+                        Менеджер проекта
+                    </p>
+                    <div class="calculate__human-card">
                         <h3>
-                            Подготовим презентацию под ваш запрос
+                            Подготовим презентацию<br/> под ваш запрос
                         </h3>
                         <span>
-                            С ценами, структурой, описанием услуг, входящих в стоимость
+                            С ценами, структурой,<br/> описанием услуг,<br/> входящих в стоимость
                         </span>
                     </div>
                 </div>
@@ -874,22 +877,425 @@
         </div>
     </section>
     <section class="set">
+        <div class="container">
+            <h2 class="age__title">
+                <span class="age__big-title">
+                    Игровой комплект
+                    <span class="age__pink-title">
+                        ВСЕ ДЕТИ НА СВЕТЕ
+                    </span>
+                </span><br/>
+                - готовое решение для любого мероприятия
+            </h2>
+            <div class="set__info">
+                <img src="assets/setPhoto.png" alt="">
+                <div class="set__criteries">
+                    <div class="set__word">
+                        Отельная анимация
+                    </div>
+                    <div class="set__word">
+                        Образовательные учреждения
+                    </div>
+                    <div class="set__word">
+                        Эвент-агентства
+                    </div>
+                    <div class="set__word">
+                        Центры развития
+                    </div>
+                    <div class="set__word">
+                        Торгово-развлекательные центры
+                    </div>
+                    <div class="set__word">
+                        Корпоративные мероприятия
+                    </div>
+                </div>
+            </div>
+            <div class="set__button">
+                <button class="button">
+                    узнать о пакетах вашей категории больше
+                </button>
+            </div>
+        </div>
         
     </section>
     <section class="cost">
-        
+        <div class="container">
+            <h2 class="age__title">
+                <span class="age__big-title">
+                    В стоимость игры уже включено
+                </span>
+            </h2>
+            <div class="cost__box-container">
+                <img src="assets/box.png" alt="">
+                <div class="cost__knopki">
+                    <div>
+                        <img src="assets/sensor.png" alt="">
+                    </div>
+                    
+                    Сенсорные кнопки<br/>
+                    на батарейках
+                </div>
+                <div class="cost__planshet">
+                    <div>
+                        <img src="assets/planshet.png" alt="">
+
+                    </div>
+                    Электронный экран<br/>
+                    с очередностью ответов
+                </div>
+                <div class="cost__batareiki parallelepiped">
+                    <div>
+                        <img src="assets/batareiki.png" alt="">
+                        Дарим запасные<br/> батарейки АА (2 шт.)
+                    </div>
+                </div>
+            </div>
+            <div class="cost__info">
+                <h3>Дополнительно вы можете приобрести<br/>
+                     <b>фирменный мерч</b></h3>
+                <div class="cost__info-list">
+                    <span>
+                        <img src="assets/trueIcon.svg" alt="checked icon">
+                        Брендированные номерки
+                    </span>
+                    <span>
+                        <img src="assets/trueIcon.svg" alt="checked icon">
+                        Подушки <span class="pink">ВСЕ ДЕТИ НА СВЕТЕ </span>
+                    </span>
+                    <span>
+                        <img src="assets/trueIcon.svg" alt="checked icon">
+                        Фирменные школьные бейджи
+                    </span>
+                </div>
+                <div >
+                    <button class="button">
+                        посмотреть мерч
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="tariffs">
-        
+        <div class="container">
+            <h2 class="age__title">
+                <img src="assets/ruka.svg" alt="">
+                <span class="age__big-title">
+                    2 тарифа на выбор
+                </span>
+                <img src="assets/ruka.svg" alt="">
+            </h2>
+    
+            <div class="tariffs__cards">
+                <div class="tariffs__standard parallelepiped">
+                    <h3>Стандарт</h3>
+                    <p class="tariffs__card-description">Для организации игр <br/> до 30 участников</p>
+                    <div class="tariffs__info-list">
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>5</b> Сенсорных кнопок
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>3</b> Игровых пакета
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>1</b> Электронный экран
+                        </span>
+                        <div class="tariffs__price">
+                            <p><span>120 000</span> рублей</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tariffs__premium parallelepiped">
+                    <h3>Премиум</h3>
+                    <p class="tariffs__card-description">Для организации игр <br/> от 30 участников</p>
+                    <div class="tariffs__info-list">
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>10</b> Сенсорных кнопок
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>5</b> Игровых пакета
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>1</b> Электронный экран
+                        </span>
+                        <div class="tariffs__price">
+                            <p><span>150 000</span> рублей</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tariffs__plus parallelepiped">
+                    <h3>+ Дополнительные пакеты</h3>
+                    <p class="tariffs__card-description">Добавьте любой пакетб чтобы сделать темы игрболее  разгообразными</p>
+                    <div class="tariffs__info-list">
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>5</b> Сенсорных кнопок
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>3</b> Игровых пакета
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                                <b>1</b> Электронный экран
+                        </span>
+                        <div class="tariffs__price">
+                            <p><span>5 000</span> рублей</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="button">
+                    выберите тариф<br/>
+                    и получите подарок
+                </button>
+            </div>
+        </div>
     </section>
     <section class="day">
+        <div class="container">
+            <h2>
+                <span class="day__title-big">Всего за 1 день:</span><br/>
+                <span class="day__title-medium">подберем игровые пакеты, подготовим комплект,</span><br/>
+                <span class="day__title-small">
+                    и организуем доставку в любой город России
+                </span>
+            </h2>
+
+            <p class="day__description">
+                Ознакомьтесь со всеми этапами:
+            </p>
+
+            <div class="day__steps">
+                <div class="day__step">
+                    <img src="assets/day1.png" alt="">
+                    <span>
+                        Согласование<br/>
+                        с менеджером
+                    </span>
+                </div>
+                <div class="day__step">
+                    <img src="assets/day2.png" alt="">
+                    <span>
+                        Выбор<br/>
+                        игровых пакетов
+                    </span>
+                </div>
+                <div class="day__step">
+                    <img src="assets/day3.png" alt="">
+                    <span>
+                        Оплата
+                    </span>
+                </div>
+                <div class="day__step">
+                    <img src="assets/day4.png" alt="">
+                    <span>
+                        Доставка
+                    </span>
+                </div>
+            </div>
+            <div class="day__info">
+                <div class="day__about">
+                    <h3>
+                        На первичной консультации<br/>
+                        с менеджером вы узнаете:
+                    </h3>
+                        <div class="day__info-list">
+                            <span>
+                                <img src="assets/trueIcon.svg" alt="checked icon">
+                                Что входит в стоимость
+                            </span>
+                            <span>
+                                <img src="assets/trueIcon.svg" alt="checked icon">
+                                О качестве оборудования
+                            </span>
+                            <span>
+                                <img src="assets/trueIcon.svg" alt="checked icon">
+                                О многофункциональности форматов игр
+                            </span>
+                            <span>
+                                <img src="assets/trueIcon.svg" alt="checked icon">
+                                О сроках изготовления и доставки игр
+                            </span>
+                            <span>
+                                <img src="assets/trueIcon.svg" alt="checked icon">
+                                О сервисе обслуживания
+                            </span>
+                        </div>
+                        <div>
+                            <button class="button">получить консультацию менеджера</button>
+                        </div>
+                </div>
+                    <img src="assets/dayPhoto.png" alt="">
+            </div>
+            <div>
+                <button class="btn bg-white">выбрать игровые пакеты</button>
+            </div>
+                
+            </div>
+        </div>
         
     </section>
     <section class="instruction">
-        
+        <div class="container">
+            <h2 class="age__title">
+                <span class="age__big-title">
+                    Видео-инструкция
+                </span><br/>
+                как пользоваться оборудованием
+            </h2>
+        </div>
+        <div class="instruction__video-container">
+            <div class="event instruction__name">Видео-инструкция</div>
+            <div class="event instruction__gifts">+ Подарки</div>
+            <div class="event instruction__star">
+                <img src="assets/star.png" alt="">
+            </div>
+            <div class="instruction__player">
+                <img src="assets/player.png" alt="">
+            </div>
+            <div class="instruction__button">
+                <button class="button">Заказать комплект и получить чек-лист в подарок!</button>
+            </div>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="container">
+            <h2>
+                Игровые комплекты будут доставлены <br/>
+                в отличном состоянии и точно в срок
+            </h2>
+            <div class="delivery__cards">
+                <div class="delivery__card">
+                    <p class="delivery__card-title">
+                        Каждый заказ помещаем
+                        <b>в <br/> противоударную упаковку</b>
+                    </p>  
+                    <div class="delivery__stars">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                    </div>
+                    <p>
+                        Комплекты не повредятся и<br/>
+                         приедут в отличном состоянии
+                    </p>
+                </div>
+                <div class="delivery__card">
+                    <p class="delivery__card-title">
+                        Доверяем доставку только<br/>
+                        
+                        <b>проверенным курьерским <br/>
+                            службам</b>
+                    </p>  
+                    <div class="delivery__stars">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                    </div>
+                    <p>
+                        Курьерские службы соблюдают <br/> все правила перевозки
+                    </p>
+                </div>
+                <div class="delivery__card">
+                    <p class="delivery__card-title">
+                        <b>Отслеживание статуса </b>
+                    </p>  
+                    <div class="delivery__stars">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                        <img src="assets/star.png" alt="">
+                    </div>
+                    <p>
+                        Вы сможете самостоятельно <br/> контролировать вашу посылку<br/> в режиме онлайн 
+                    </p>
+                </div>
+            </div>
+            <img class="delivery__box" src="assets/box.png" alt="">
+            <img class="delivery__floor" src="assets/delivery_flooe.png" alt="">
+
+        </div>
     </section>
     <section class="pdf">
-        
+        <div class="container">
+            <h2>
+                Получите PDF-презентацию<br/>
+                с полной информацией об игровом комплекте для<br/>
+                 ваших мероприятий
+            </h2>
+            <div class="pdf__info">
+                <div class="pdf__info-left">
+                    <h3>
+                        <span class="highlight"><span>В PDF-презентации</span> </span>есть все детали<br/>
+                         для обсуждения заказа с коллегами<br/>
+                          или родительским комитетом
+                    </h3>
+                    <div class="pdf__info-list">
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                            Варианты комплектов для вашей организации
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                            Полная инструкция и советы по проведению
+                        </span>
+                        <span>
+                            <img src="assets/trueIcon.svg" alt="checked icon">
+                            Условия и сроки доставки
+                        </span>
+                    </div>
+                </div>
+                <div class="form">
+                    <h3>
+                        Введите ваш номер
+                    </h3>
+                    <div class="form__description">
+                        и получите PDF-презентацию игровых<br/> комплектов
+                    </div>
+                    <div class="form__phone">
+                        <label for="phone">введите ваш номер телефона или e-mail</label>
+                        <input placeholder="+ 7 000 000 00 00" type="number" name="phone">
+                    </div>
+                    
+                    <p class="form__connect">выберите способ связи</p>
+
+                    <div class="radio-container">
+                        <input type="radio" id="radio1" name="radio" />
+                        <label for="radio1">
+                            <img src="assets/whatsapp_symbol.svg" alt="Whatsapp Image">
+                            <span>Whatsapp</span>
+                        </label>
+                
+                        <input type="radio" id="radio2" name="radio" />
+                        <label for="radio2">
+                            <img src="assets/messageIcon.png" alt="e-mail Image">
+                            <span>e-mail</span>
+                        </label>
+                    </div>
+                    <div class="form__button">
+                        <button class="button">
+                            Получить pdf-презентацию
+                        </button>
+                    </div>
+                    <div class="form__agreement">
+                        <input type="checkbox" name="agreement">
+                        <label for="agreement">я принимаю условия передачи данных</label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="vhistory">
         
